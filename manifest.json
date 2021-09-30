@@ -1,0 +1,10 @@
+{
+    "manifest_version":2,
+    "version":"1.0",
+    "name":"Memedit",
+    "description":"Memes from Reddit, directly in your browser",
+    "author":"Omkar Bhoir",
+    "action":{
+        "default_popup":"index.html"
+    }
+}
