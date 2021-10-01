@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     min-width: 500px;
+
 }
 
 .container{
@@ -12,11 +13,11 @@ body{
     justify-content: center;
     flex-direction: column;
     row-gap: 1.5rem;
+    background-color: rgb(238, 234, 234);
 }
 
 .image{
     width: 100%;
-    background-color: rgb(158, 202, 35);
     display: flex;
     justify-content: center;
     
@@ -27,7 +28,8 @@ body{
     /* max-width: 400px;
     width: auto; */
     height: 100%;
-    border: 1px solid #000;
+    border: 1px solid #FF4300;
+    max-height: 400px;
 }
 
 .btn{
@@ -44,4 +46,8 @@ body{
 
 .btn:hover{
     background-color: #ff2600;
+}
+
+h2{
+   margin: 0; 
 }
